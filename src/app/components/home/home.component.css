@@ -9,38 +9,58 @@
   overflow: hidden;
 }
 
-.hero-text {
-  color: #FFFFFF;
-  text-align: center;
-  font-family: Montserrat;
+.logo {
+  margin-top: 4.5rem;
+  width: 210px;
+  height: 32px;
+}
+
+
+.montserrat-hero {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   font-size: 2rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 2.75rem;  
-  width: 17rem;
-  height: 5.5rem;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 2.75rem;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
 }
 
-.brand-text {
-  color: var(--0-neutral-3-white, #FFF);
-  text-align: center;
-  font-family: Montserrat;
+.montserrat-brand {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 600;
+  color: #FFFFFF;
+
   line-height: 1.625rem;
-  width: 17rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1.5rem;
 }
 
-.final-text {
-  color: var(--0-neutral-3-white, #FFF);
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 1rem;
-  font-style: normal;
+.montserrat-final {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 500;
-  line-height: 1.5rem; /* 150% */
-  width: 17rem;
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--0-neutral-3-white, #FFF);
+
+  line-height: 1.5rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-button {
@@ -48,6 +68,11 @@
   background-color: #272727;
   border: 2px solid var(--0-neutral-3-white, #FFF);
   border-radius: 0.25rem; 
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 
   color: var(--0-neutral-3-white, #FFF);
   text-align: center;
@@ -66,4 +91,32 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1rem; /* 133.333% */
+}
+
+
+@media (min-width: 504px) {
+  .logo {
+    width: 19rem;
+    height: 3rem;
+  }
+
+  .montserrat-hero {
+    font-size: 3rem;
+    line-height: 3.5rem; /* 116.667% */
+
+    margin-top: 3rem;
+  }
+
+  .montserrat-brand {
+    font-size: 1.5rem;
+    line-height: 1.75rem; /* 116.667% */
+
+    display: block;
+  }
+
+  .montserrat-final {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: center;
+  }
 }

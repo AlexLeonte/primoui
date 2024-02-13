@@ -1,0 +1,34 @@
+.content {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.focus {
+  background-color: #023020;
+  width: 60%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  color: var(--0-neutral-3-white, #FFF);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.75rem; /* 137.5% */
+}
+
+input {
+  background-color: #023020;
+  color: white;
+  border-bottom: 1px grey solid;
+  /* width: calc(100% - 4px); */
+  width: 100%;
+}

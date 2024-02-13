@@ -8,28 +8,37 @@
       <rect x="48" width="8" height="8" rx="2" fill="#C471E3"/>
     </svg>
   </div>
-  <div class="container" style="margin-top: 4.5rem;">
-    <div>
-      <img style="width: 13rem; height: 2rem;" src="assets/logo.svg" alt="Logo">
+  <div class="container">
+    <div class="logo">
+      <img src="assets/logo.svg" alt="Logo">
     </div>
   </div>
-  <div class="container" style="margin-top: 1.5rem;">
-    <div class="hero-text">
-      <h1>digital solutions for a digital age</h1>
-    </div>
+  <div class="container" >
+    <h1 class="montserrat-hero">
+      <span>digital solutions</span>
+      <span>for a digital age</span>
+    </h1>
   </div>
-  <div class="container" style="margin-top: 1.5rem;">
-    <div class="brand-text">
-      <h2>branding, UX / UI & development</h2>
-    </div>
+  <div class="container">
+    <h2 class="montserrat-brand">
+      <span>branding, UX / UI &</span>
+      <span>development</span>
+    </h2>
   </div>
   <div class="container" style="margin-top: 2rem;">
-    <div class="final-text">
-      <p>we provide tailor-made design & development services for websites & applications.</p>
-    </div>
+    <p class="montserrat-final">
+      <span>we provide tailor-made</span>
+      <span>design & development services</span>
+      <span>for websites & applications.</span>
+    </p>
   </div>
   <div class="container" style="margin-top: 3rem;">
-      <button class="contact-button">contact us</button>
+    <button
+      (click)="navigateToRoute()"
+      class="contact-button"
+    >
+      contact us
+    </button>
   </div>
   <div class="container" style="flex-direction: column;margin-top: 3.25rem;">
       <span class="footer">Privacy Policy</span>
